@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color:white;
+}
+
+input,button{
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-size: 1rem;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+button:active{
+  scale: 0.9;
+}
+textarea{
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.box{
+  margin-top: 5px;
+}
+.box1{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.heading{
+  margin-top: 60px;
+  font-size: 1.7rem;
+  margin-left: 12px;
+}
+.heading1:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+
+
+.para{
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.msg{
+  max-height: 50px;
+}
